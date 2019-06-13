@@ -20,5 +20,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         //Capture the layout's TextView and set the string as its text
         TextView textview = findViewById(R.id.textView);
         textview.setText(message);
+        TextView textView = findViewById(R.id.textView2);
+        textView.setText(message);
     }
 }
