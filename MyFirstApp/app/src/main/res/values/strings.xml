@@ -5,4 +5,5 @@
     <string name="button_add">Add</string>
     <string name="Add_User">Enter a User</string>
     <string name="greetingForEros">Hello Eros, thanks for completing this tech exercise!</string>
+    <string name="matt_string">Hello Matt, how are you</string>
 </resources>
