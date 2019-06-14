@@ -4,9 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
 
 
 public class MainActivity extends AppCompatActivity {
@@ -15,7 +17,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Toast.makeText(this, R.string.greetingForEros, Toast.LENGTH_LONG).show();
+
+      // Toast toast = Toast.makeText(this,R.string.matt_string, Toast.LENGTH_LONG);
+      // toast.setGravity(Gravity.TOP|Gravity.LEFT,50,0);
+      // toast.show();
+
     }
     /** Called when the user taps the Send button */
     public void sendMessage (View view){
